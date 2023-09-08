@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:12.18.1
+FROM ecrdev.clouz.io/openshift/nodejs:18-dev
 ENV NODE_ENV=production
 
 WORKDIR /app
